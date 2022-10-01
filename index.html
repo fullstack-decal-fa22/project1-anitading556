@@ -17,37 +17,7 @@
     </head>
     <body>
 
-        <!-- Here, I used the Window function right after calling the open new tab function.
-        The purpose of this is to satisfy my design. Since I do not know how to create a pop
-        up window, I decided to make the window go to a new link and close the current tab.
-        So the effect should look like when I click About Me, instead of opening a new tab,
-        the current tab would change to the corresponding address. And when I click "back",
-        I go "back" to the home page without switching tabs. -->
-        <div class="navbar elements">
-            <button class="nav-item" onclick="openAbout() & window.close();">About Me</button>
-            <button class="nav-item" onclick="openPortfolio() & window.close();">My Portfolio</button>
-            <button class="nav-item" onclick="openContact() & window.close();">Contact Me</button>
-        </div>
-
-        <!-- Here I used h1, h5, and in other places, I've used h2, h3, h4, h6. You just have
-        to find them, there're here somewhere. -->
-        <div>
-            <h1>Anita Ding</h1>
-            <h5>Computer Science @ Berkeley</h5>
-        </div>
-
-        <!-- These are the pictures of my brother's dog, me, and my CS 61B project showcase.
-        It was quite difficult figuring out the grid and flex boxes so I hard coded some locations
-        to save the time of figuring out the actual code. -->
-        <div>
-            <img class="box" id="box-one" src='Manta.JPG' alt='symp'>
-            <img class="box" id="box-two" src='https://ca.slack-edge.com/T66ATDRU6-U02V691ANM9-6623ee203f6a-512' alt='symp'>
-            <iframe autoplay loop class="box" id="box-three" src="https://www.youtube.com/embed/mJVPU7MnZiI" frameborder="0"></iframe>
-            <h6 style="position: absolute; bottom: 0px; left: 220px;">Created by Anita Ding and Smit Rajyaguru</h6>
-        </div>
+        <button class="backbutton" onclick="openHome() & window.close();">Go to Home Page</button>
 
     </body>
-
-    <!-- Here is the JavaScript file. I put it at the end because it's where it should be. -->
-    <script src="script.js"></script>
 </html>
