@@ -8,14 +8,11 @@ function checkStart() {
 }
 // Functions to open a new tab to each of the 4 sites.
 function openHome() {
-	alert('Testing alert');
-	checkStart()
 	myWindow = window.open ('index.html');
 	start = false;
 }
 
 function openAbout() {
-	alert('Testing alert');
 	checkStart()
 	myWindow = window.open ('about.html');
 	start = false;
