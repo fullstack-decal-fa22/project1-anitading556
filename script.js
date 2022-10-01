@@ -9,9 +9,9 @@ function openAbout() {
 }
 
 function openPortfolio() {
-	myWindow = window.open ('/Users/anitading556/Desktop/cs198-99/project1-anitading556/portfolio.html')
+	myWindow = window.open ('/Users/anitading556/Desktop/cs198-99/project1-anitading556-1/portfolio.html')
 }
 
 function openContact() {
-	myWindow = window.open ('/Users/anitading556/Desktop/cs198-99/project1-anitading556/contact.html')
+	myWindow = window.open ('/Users/anitading556/Desktop/cs198-99/project1-anitading556-1/contact.html')
 }
