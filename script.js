@@ -1,7 +1,8 @@
 var myWindow;
+var start = true;
 
 function checkStart() {
-	if (start == true) {
+	if (start === true) {
 		alert('Please close this tab. Click "back" on new tab for Home Page.');
 	}
 }
