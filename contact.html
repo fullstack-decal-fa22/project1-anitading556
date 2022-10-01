@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Title, author, description. -->
+        <title>Anita Ding</title>
+        <meta name="author" content="Anita Ding">
+        <meta name="description" content="Personal Website">
+        <link href="frontpage.css" rel="stylesheet">
+        <!-- CSS for social icons. -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+	<body>
+        <p>Feel free to contact me using the following methods!</p>
+
+        <!-- These are my social media icons. -->
+        <footer>
+            <a href="https://www.facebook.com/anita.ding.54/" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/anitading556/" class="fa fa-instagram"></a>
+            <a href="mailto:anitading556@gmail.com" class="fa fa-google"></a>
+            <a href="tel:6506605545" class="fa fa-phone"></a>
+        </footer>
+
+        <!-- The following satisfy the "form", "label", "input", and "submit" requirements. -->
+        <form>
+            <label>What's your favorate joke?</label><br>
+            <p><input type="text" name="fname"><br></p>
+            <br><br>
+            <button style="position: absolute; right: 700px; top: 150px;" onclick="alert('OOOO~ That\'s a good one! Very nice to meet you!')">Submit</button> 
+        </form>
+            
+        <!-- When I click "back" button, the tab refreshes the home page. -->
+        <button style="position: absolute; right: 708px; top: 200px; border-color: black;" class="backbutton" onclick="openHome() & window.close();">Back</button>
+    </body>
+
+    <!-- js file -->
+	<script src="script.js"></script>
+</html>

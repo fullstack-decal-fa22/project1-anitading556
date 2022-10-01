@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Default headers. -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- CSS for audio input. -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous"/>
+        <!-- Title, author, description, CSS. -->
+        <title>Anita Ding</title>
+        <meta name="author" content="Anita Ding">
+        <meta name="description" content="Personal Website">
+        <link href="frontpage.css" rel="stylesheet">
+    </head>
+    <body>
+        <h2>My Portfolio</h2>
+        
+        <!-- Below are 5 boxes, 5 types of work/activities. -->
+        <div class="box1">
+            <h3>CLUBS</h3>
+        <ul>
+            <li>ayoFX Dance</li>
+            <li>CHAOS</li>
+            <li>AirBears@Berkeley</li>
+        </ul>
+        </div>
+
+        <div class="box2">
+            <h3>Sports</h3>
+            <ul>
+                <li>Badminton</li>
+                <li>Biking</li>
+                <li>Hiking</li>
+                <li>Swimming</li>
+                <li>Snowboarding</li>
+                <li>Running</li>
+            </ul>
+        </div>
+
+        <div class="box3">
+            <h3>Programming Languages</h3>
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+                <li>BNF</li>
+                <li>Scheme</li>
+                <li>R</li>
+                <li>html</li>
+                <li>CSS</li>
+                <li>C</li>
+                <li>Regex</li>
+            </ul>
+        </div>
+
+        <div class="box4">
+            <h3>Languages proficient in speaking, reading, and writing.</h3>
+            <ul>
+                <li>English</li>
+                <li>Mandarin</li>
+            </ul>
+        </div>
+
+        <div class="box5">
+            <h3>Music Pieces</h3>
+            <h4>Sukiyaki</h4>
+            <div><audio controls autoplay muted>
+                <source src="Sukiyaki (Louder).ogg" type="audio/ogg">
+                <source src="Sukiyaki (Louder).mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio></div>
+    
+            <h4>斑马斑马</h4>
+            <div><audio controls autoplay muted>
+                <source src="斑马斑马.ogg" type="audio/ogg">
+                <source src="斑马斑马.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio></div>
+        </div>
+        <!-- "Back" button. -->
+        <button class="backbutton portfolioBack" onclick="openHome() & window.close();">Back</button>
+    </body>
+    <!-- js file -->
+	<script src="script.js"></script>
+</html>
