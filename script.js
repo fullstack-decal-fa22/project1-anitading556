@@ -14,6 +14,7 @@ function openHome() {
 }
 
 function openAbout() {
+	alert('Testing alert');
 	checkStart()
 	myWindow = window.open ('about.html');
 	start = false;
