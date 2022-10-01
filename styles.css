@@ -139,7 +139,7 @@ button:hover {
 
 /* These are the boxes in the portfolio. */
 .box1 {
-    height: 180px;
+    height: 120px;
     width: 200px;
     background-color: #d375fe;
     text-align: center;
@@ -149,11 +149,11 @@ button:hover {
     color: white;
     position: absolute;
     right: 580px;
-    bottom: 30px;
+    bottom: 50px;
 }
 
 .box2 {
-    height: 250px;
+    height: 200px;
     width: 200px;
     background-color: #d375fe;
     text-align: center;
@@ -162,12 +162,12 @@ button:hover {
     margin: 40px;
     color: white;
     position: absolute;
-    right: 200px;
+    right: 170px;
     bottom: 0px;
 }
 
 .box3 {
-    height: 370px;
+    height: 320px;
     width: 280px;
     background-color: #d375fe;
     text-align: center;
@@ -181,7 +181,7 @@ button:hover {
 }
 
 .box4 {
-    height: 170px;
+    height: 120px;
     width: 280px;
     background-color: #d375fe;
     text-align: center;
@@ -195,7 +195,7 @@ button:hover {
 }
 
 .box5 {
-    height: 320px;
+    height: 220px;
     width: 350px;
     background-color: #d375fe;
     text-align: center;
@@ -205,7 +205,7 @@ button:hover {
     color: white;
     position: absolute;
     left: 20px;
-    bottom: 100px;
+    bottom: 180px;
     transition: top ease 0.5s;
 }
 
